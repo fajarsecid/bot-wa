@@ -400,7 +400,7 @@ const isQuotedDocument = type === 'extendedTextMessage';
     // Grup Only
         if (!m.isGroup && !XliconTheCreator && db.settings[botNumber].onlygrub ) {
           if (isCommand){
-            return replygcxlicon(`Hello buddy! Because We Want to Reduce Spam, Please Use Bot in the Group Chat !\n\nIf you have issue please chat owner wa.me/${ownernumber}`)
+            return replygcxlicon(`Hello user!, Please Use Bot in the Group Chat ! : https://chat.whatsapp.com/Hb3gnvIyF8IFUhaA0tP9vA\n\nIf you have issue please chat owner wa.me/${ownernumber}`)
             }
         }
         // Private Only
