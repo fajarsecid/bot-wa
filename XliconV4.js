@@ -20776,14 +20776,14 @@ break;
             // Prepare video details
             const { title, duration, timestamp, ago, views, name, channel, thumbnail, mp4 } = hasil.result;
 
-            const caption = `*_DOWNLOADED BY XLICON V4 MD_*\n\n
+            const caption = `*_DOWNLOADED BY Fajar-ID BOT_*\n\n
     🎬 *Title*: _${title}_\n
     ⏱️ *Duration*: _${duration} seconds_\n
     📅 *Uploaded*: _${ago}_\n
     👁️ *Views*: _${views.toLocaleString()}_\n
     👤 *Uploader*: _${name}_\n
     🔗 *Channel*: _${channel}_\n\n
-    ✨ *Enjoy your video!* 🎥\n🔥 *Powered by Xlicon Bot* 💻`;
+    ✨ *Enjoy your video!* 🎥\n🔥 *Powered by Fajar-ID BOT* 💻`;
 
             // Send video with caption
             await XliconBotInc.sendMessage(m.chat, {
@@ -20844,9 +20844,9 @@ case 'ytv2': {
         }
 
         const videoLink = hasil.video;
-        const caption = `*_DOWNLOADED BY XLICON V4 MD_*\n\n
+        const caption = `*_DOWNLOADED BY Fajar-ID BOT_*\n\n
 🎬 *Title*: _${hasil.title}_\n
-✨ *Enjoy your video!* 🎥\n🔥 *Powered by Xlicon Bot* 💻`;
+✨ *Enjoy your video!* 🎥\n🔥 *Powered by Fajar-ID BOT* 💻`;
 
         await XliconBotInc.sendMessage(m.chat, {
             video: { url: videoLink },
